@@ -10,8 +10,8 @@ of 15.
 
 The results are:
 
+* C (clang -O3) — 1.286s
 * PyPy — 3.980s
-* C (clang -O3) — 5.223s
 * Julia 0.5 — 10.118s
 * Python 3 — 16.597s
 * Python 2 — 16.944s

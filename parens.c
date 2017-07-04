@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <assert.h>
 
 void _parens(char *prefix, int left, int right)
 {
@@ -10,7 +11,7 @@ void _parens(char *prefix, int left, int right)
     }
 
 #define APPEND(c) \
-    char *s = malloc(64); \
+    char *s = alloca(32); \
     char *p = prefix, *q = s; \
     while (*p) *q++ = *p++; \
     *q++ = c; \
@@ -28,6 +29,7 @@ void _parens(char *prefix, int left, int right)
 
 void parens(int n)
 {
+    assert(n < 32);
     _parens("", n, n);
 }
 
