@@ -1,4 +1,4 @@
-#!/Applications/Julia-0.5.app/Contents/Resources/julia/bin/julia
+#!/Applications/Julia-0.6.app/Contents/Resources/julia/bin/julia
 
 function _parens(prefix::String, left::Int64, right::Int64)
     left == 0 && right == 0 && println(prefix)

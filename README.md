@@ -12,6 +12,7 @@ The results are:
 
 * C (clang -O3) — 0.651s
 * PyPy — 3.980s
+* Julia 0.6 — 4.516s
 * Julia 0.5 — 10.118s
 * Python 3 — 16.597s
 * Python 2 — 16.944s
