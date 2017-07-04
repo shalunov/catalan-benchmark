@@ -10,7 +10,7 @@ of 15.
 
 The results are:
 
-* C (clang -O3) — 1.286s
+* C (clang -O3) — 0.651s
 * PyPy — 3.980s
 * Julia 0.5 — 10.118s
 * Python 3 — 16.597s
