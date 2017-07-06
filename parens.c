@@ -21,8 +21,8 @@ void _parens(int left, int right)
 
 void parens(int n)
 {
-    assert(n < 32);
     size = 2*n;
+    assert(size < sizeof(stack));
     stack[size] = '\0';
     _parens(n, n);
 }
