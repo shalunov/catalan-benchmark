@@ -3,9 +3,7 @@
 import sys
 
 def _parens(prefix, left, right):
-    if left == 0 and right == 0:
-        print(prefix)
-        return
+    if left == 0 and right == 0: print(prefix)
     if left > 0: _parens(prefix+'(', left-1, right)
     if right > left: _parens(prefix+')', left, right-1)
 
