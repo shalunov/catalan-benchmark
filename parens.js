@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 'use strict';
+require('log-buffer');
 
 function _parens(prefix, left, right) {
     if (!left && !right) console.log(prefix);
