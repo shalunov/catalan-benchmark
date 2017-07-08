@@ -17,6 +17,7 @@ The results are:
 * Julia 0.5 — 10.118s
 * Python 3 — 16.597s
 * Python 2 — 16.944s
+* Kotlin — 17.619s
 * Perl — 19.282s
 * JRuby — 23.144s
 * Ruby — 23.788s
