@@ -15,6 +15,7 @@ The results are:
 * Julia 0.6 — 4.516s
 * JRuby — 7.704s
 * JavaScript (node 8.1.3) — 8.358s
+* Rust (opt-level=3) — 9.873s
 * Julia 0.5 — 10.118s
 * Swift 3 — 14.349s
 * Python 3 — 16.597s
