@@ -11,6 +11,7 @@ of 15.
 The results are:
 
 * C (clang -O3) — 0.651s
+* Go — 2.060s
 * PyPy — 3.980s
 * Julia 0.6 — 4.516s
 * JRuby — 7.704s
