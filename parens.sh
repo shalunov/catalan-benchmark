@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # _parens $1 $2 $3
 # $1 prefix
@@ -7,15 +7,15 @@
 
 _parens()
 {
-  if [[ $2 -eq 0 && $3 -eq 0 ]]; then
+  if test $2 -eq 0 -a $3 -eq 0; then
       echo "$1"
   fi
 
-  if [[ $2 -gt 0 ]]; then
+  if test $2 -gt 0; then
       _parens "$1(" $(($2-1)) "$3"
   fi
 
-  if [[ $3 -gt $2 ]]; then
+  if test $3 -gt $2; then
       _parens "$1)" "$2" $(($3-1))
   fi
 }
